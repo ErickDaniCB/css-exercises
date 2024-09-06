@@ -43,3 +43,21 @@ body {
   display: flex;
   flex-grow: 1;
 }
+
+.sidebar{
+  flex-basis: auto;
+  flex-shrink: 0;
+}
+
+.cards { 
+  display: flex;
+  flex-shrink: 3;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 20px;
+}
+
+.card {
+  flex-basis: 300px;
+  padding: 20px;
+}
